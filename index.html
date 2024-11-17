@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="tetris.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TetrisJS</title>
+</head>
+<body>
+    <div class="col">
+        <div class="score-div">
+            <h1>Score</h1>
+            <p id="score" class="score">0</p>
+        </div>
+        <div class="level-div">
+            <h1>Level</h1>
+            <p id="level">1</p>
+        </div>
+    </div>
+    <canvas class="tetris" id="tetris" width="240" height="400"></canvas>
+    <div class="next-container">
+        <h1 class="nextTitle">Next</h1>
+        <canvas width="250" height="250" id="next" class="next"></canvas>
+    </div>
+
+</body>
+</html>
